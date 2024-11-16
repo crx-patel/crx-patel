@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Name</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="contact.htm">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Patel's Restaurant</h1>
+            <p>Delicious food, warm ambiance, unforgettable experience.</p>
+            <button onclick="orderNow()">Order Now</button>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <h3>Pizza</h3>
+                <p>Delicious cheese and pepperoni pizza.</p>
+                <p>$15</p>
+            </div>
+            <div class="menu-item">
+                <h3>Burger</h3>
+                <p>Juicy beef burger with fresh toppings.</p>
+                <p>$10</p>
+            </div>
+            <div class="menu-item">
+                <h3>Pasta</h3>
+                <p>Classic Italian pasta with marinara sauce.</p>
+                <p>$12</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: patel123@gmail.com</p>
+        <p>Phone: 7856831419</p>
+        <p>Address: Chitranjan Road,Lakhisarai</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Restaurant Name | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js">
+
+
+
+
+
+
+// JavaScript to handle the "Order Now" button click
+function orderNow() {
+    alert('Your order has been placed! We will contact you soon.');
+}
+
+    </script>
+</body>
+</html>
